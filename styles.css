@@ -1,0 +1,154 @@
+/* Fonts */
+
+@font-face {
+    font-family: 'fontello';
+    src: url('./fonts/fontello.eot');
+    src: url('./fonts/fontello.eot') format('embedded-opentype'),
+         url('./fonts/fontello.woff2') format('woff2'),
+         url('./fonts/fontello.woff') format('woff'),
+         url('./fonts/fontello.ttf') format('truetype'),
+         url('./fonts/fontello.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* General */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Container */
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+/* Section */
+
+.section__content {
+    padding: 0 20px;
+}
+
+/* Skills List */
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* languages */
+
+.languages {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Profile */
+
+.profile {
+    display: flex;
+}
+
+.profile__photo {
+    width: 240px;
+    padding: 0 10px 10px 0;
+}
+
+/* Title */
+
+.title {
+    border-bottom: 2px solid #7F8C8D;
+}
+
+/* Icon */
+
+.icon::before {
+    font-family: 'fontello';
+    margin-right: 4px;
+    font-size: 18px;
+}
+
+.icon_phone::before {
+    content: '\e800';
+    color: #2ECC71;
+}
+
+.icon_mail::before {
+    content: '\e801';
+    color: #F4D03F;
+}
+
+.icon_globe::before {
+    content: '\e802';
+    color: #000;
+}
+.icon_github::before {
+    content: '\f09b';
+    color: #24292e;
+}
+.icon_telegram::before {
+    content: '\f2c6';
+    color: #0088cc;
+}
+
+/* Contacts */
+
+.contacts {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contacts__item {
+    padding: 5px;
+}
+
+.contacts__link {
+    text-decoration: none;
+    color: #000;
+}
+
+.contacts__link:hover {
+    cursor: pointer;
+    color: #2E86C1;
+    text-decoration: underline;
+}
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    padding: 5px;
+}
+
+/* RSS Link */ 
+
+.rss-link {
+    color: #000;
+    text-decoration: none;    
+}
+
+.rss-link:hover {
+    cursor: pointer;
+    color: #2E86C1;
+    text-decoration: underline;
+}
+
+.rss-link__logo {
+    height: 1rem;
+    display: inline-block;
+}
